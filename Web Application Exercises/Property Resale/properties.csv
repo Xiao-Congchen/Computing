@@ -1,0 +1,12 @@
+PropertyID;Address;Postal;TotalArea;NoOfBedroom;NoOfToilet;AskingPrice;Status
+Property001;583 Orchard Road;238884;75;2;1;1,081,000.00;TRUE
+Property002;141 Market Street;048944;90;2;2;919,000.00;FALSE
+Property003;27 Wilby Road;276302;110;3;3;703,000.00;TRUE
+Property004;9 penang road;238459;100;3;3;1,046,000.00;TRUE
+Property005;194 Pandan Loop;128383;94;3;2;756,000.00;FALSE
+Property006;514 chai chee lane;469029;108;3;3;530,000.00;FALSE
+Property007;77 Commonwealth Drive;140077;106;3;3;749,000.00;FALSE
+Property008;290 Orchard Road;238859;99;2;2;871,000.00;FALSE
+Property009;238 Thomson Road;307684;124;4;3;935,000.00;FALSE
+Property010;16a Bali Lane;189852;60;1;1;1,292,000.00;FALSE
+Property011;85 Science Park Drive;118259;96;3;2;636,000.00;FALSE

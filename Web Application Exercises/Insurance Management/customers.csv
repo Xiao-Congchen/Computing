@@ -1,0 +1,21 @@
+CustomerID,Name,Gender,DoB,Address,HealthCondi
+CUST001,Christiana Castaneda,F,19840312,"84 Genting Lane #05-01 CITYNEON DESIGN CENTRE, 349584, Singapore",
+CUST002,Matas Mcgowan,M,19682204,"48, Toh Guan Rd East #01-137, Enterprise Hub Singapore 608586, Singapore",
+CUST003,Evie-Grace Gale,F,19802708,"9 penang road #B1-07 Park Mall, 238459, Singapore",asthma
+CUST004,Terence Knight,M,19792502,"1 Woodlands Industrial Park E1 #03-02, 757724, Singapore",asthma
+CUST005,Phyllis Burt,F,19661805,"100 Beach Rd #32-01/03 Shaw Towers, 189702, Singapore",
+CUST006,Aiza Crossley,F,19761612,"Sin Cheong Building 47 Jalan Pemimpin #01-01 577200, Singapore",diabetes
+CUST007,Huxley Chang,M,19773010,"7500A, Beach Rd #16-307, The Plaza Singapore 199591, Singapore",
+CUST008,Sanjay Reeves,M,19680702,"750C Chai Chee Road #02-01 TECHNOPARK @CHAICHEE, 469003, Singapore",high blood pressure
+CUST009,Lillie-Rose Blackwell,F,19821808,"18 Tannery Lane 289674, Singapore",
+CUST010,Harriett Robin,F,19790404,"Suntec Tower Three 8 Temasek Boulevard #23-03 038988, Singapore",diabetes
+CUST011,Shahid Trevino,M,19673012,"20 Ayer Rajah Crescent #04-04 TECHNOPRENEUR CENTRE, 139964, Singapore",
+CUST012,Ayrton Summers,M,19811808,"1 Rochor Rd #03-586 Rochor Centre, 180001, Singapore",
+CUST013,Jonas Lott,M,19782011,"2 Sembawang Walk 757616, Singapore",
+CUST014,Lianne Rosa,F,19752111,"158 Kallang Way 03-605 Kallang Basin, 349245, Singapore",
+CUST015,Kaja Holding,F,19910507,"80 Anson Road #28-03 Fuji Xerox Towers, 079907, Singapore",high blood pressure
+CUST016,Hilda Forrest,M,19600909,"11 Tuas View Crescent Muiltco Building, 637643, Singapore",
+CUST017,Augustus Orr,M,19641509,"3 Killiney Rd #01-01, 239519, Singapore",
+CUST018,Nabila Odling,F,19950406,"20 Bedok North Street 2, 469644, Singapore",
+CUST019,Freja Rowley,F,19642405,"Standard Chartered Battery Road 6 Battery Road #11-07 049909, Singapore",
+CUST020,Cairon Alvarado,M,19910407,"1 Brooke Road #03-07 Katong Plaza Singapore 429979, Singapore",

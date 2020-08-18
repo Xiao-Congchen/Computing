@@ -1,0 +1,12 @@
+RecordID;SellerID;ProperyID;DataListed;BuyerID;SoldPrice;SoldDate
+1;User017;Property007;20200103;;;
+2;User002;Property003;20200124;User010;"692,000.00";20200605
+3;User004;Property005;20200201;;;
+4;User014;Property010;20200202;;;
+5;User015;Property004;20200203;User012;"1,035,000.00";20200620
+6;User013;Property011;20200225;;;
+7;User016;Property009;20200229;;;
+8;User008;Property001;20200305;;;
+9;User009;Property008;20200318;;;
+10;User005;Property002;20200320;User001;"910,000.00";20200510
+11;User018;Property006;20200401;;;
