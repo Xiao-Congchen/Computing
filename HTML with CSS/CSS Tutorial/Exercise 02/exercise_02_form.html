@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>H2 Computing Sign up Form</title>
+        <link rel="stylesheet" href="sign_up_form.css"> 
+    </head>
+    <body>
+        <h1>H2 Computing Sign up Form</h1>
+        <form>
+            <p>Please enter your particulars below.</p>
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td>
+                        <input type="text" name="First Name" placeholder="First Name" />
+                    </td>
+                    <td>Last Name:</td>
+                    <td>
+                        <input type="text" name="Last Name" placeholder="Last Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" name="Email" placeholder="name@email.com" />
+                    </td>
+                    <td>Contact:</td>
+                    <td><input type="tel" name="Contact" /></td>
+                </tr>
+                <tr>
+                    <td>Class: </td>
+                    <td><input type="text" name="Class" /></td>
+                    <td>Gender</td>
+                    <td>
+                        <select name="Gender">
+                        <option value="Male" selected>Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Non-Binary">Non-Binary</option>
+                        <option value="Attack Helicopter">Attack Helicopter</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="datetime" name="Date of Birth" value="01/01/2000"></td>
+                </tr>
+
+            </table>
+            <br>Subject Combination<br>
+            <input type="radio" name="Subject Combination" value="PCPME">P CP M E<br>
+            <input type="radio" name="Subject Combination" value="CCPME">C CP M E<br>
+            <input type="radio" name="Subject Combination" value="Other">Other: <input type="text"><br>
+        </form>
+        <br>
+        <input type="button" name="Submit" value="Submit" id="submit"></a>
+    </body>
+</html>
