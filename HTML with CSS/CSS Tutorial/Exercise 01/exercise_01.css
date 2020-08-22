@@ -8,12 +8,26 @@ h1 {
     color: white;
     background: rgb(252, 68, 69);
     border: 5px solid rgb(239, 226, 186);
+    margin: 20px;
+    padding: 10px;
 }
 
 h2 {
+    font-family: "Courier";
     color: rgb(239, 226, 186);
 }
 
 p {
-    color: rgb(36, 208, 170);
+    font-family: "Courier";
+    color: rgb(31, 224, 196);
+}
+
+ol {
+    font-family: "Courier";
+    color: rgb(31, 224, 196);
+}
+
+#link {
+    font-family: "Courier";
+    color: rgb(239, 226, 186);
 }
