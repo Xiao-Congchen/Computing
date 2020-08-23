@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block body %}
+
+<h1>Rank Point Calculator</h1>
+<p>Do you wish to include the result of PW?</p>
+<form action="{{url_for('rp_calc')}}" method="POST">
+    <select name="PW">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <p>Do you wish to include the result of Mother Tongue Language?</p>
+    <select name="MT">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <p><input type="submit" value="Update" /></p>
+</form>
+
+{% endblock %}

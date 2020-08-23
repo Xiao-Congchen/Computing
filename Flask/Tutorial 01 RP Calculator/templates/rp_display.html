@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block body %}
+<h1>Here is your Rank Point!</h1>
+<table>
+    <tr>
+        <th>Subject Name</th>
+        <th>Grade</th>
+        <th>RP</th>
+    </tr>
+    {% for subject_result in result %}
+    <tr>
+        {% for individual_data in subject_result %}
+        <td>{{individual_data}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td>{{total}}/90.00</td>
+    </tr>
+</table>
+{% endblock %}
