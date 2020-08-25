@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <header><title>My Website</title></header>
-    <link rel="stylesheet" href="/Flask/Tutorial 01 RP Calculator/static/css/base.css">
+    <head>
+
+        <title>My Website</title>
+        <link rel="stylesheet" href="/static/css/base.css">
+
+    </head>
+    
     <body>
         <table>
             <tr>
-                <td><a class="link" href="{{url_for('index')}}">Home</a></td>
-                <td><a class="link" href="{{url_for('about')}}">About</td></td>
-                <td><a class="link" href="{{url_for('rp_calc')}}">RP Calculator</a></td>
+                <td class="link"><a id="link" href="{{url_for('index')}}">Home</a></td>
+                <td class="link"><a id="link" href="{{url_for('about')}}">About</td></td>
+                <td class="link"><a id="link" href="{{url_for('rp_calc')}}">RP Calculator</a></td>
             </tr>
         </table>
-
         {% block body %}
-
         {% endblock %}
-        
     </body>
 </html>
