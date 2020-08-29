@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team Statistics Database</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>Team Statistics Database</h1>
+        <form action="{{url_for('agent')}}" method="POST">
+            <p>Team Number:</p>
+            <input type="number" name="team_no" />
+            <input type="submit" value="Check team statistics" />
+        </form>
+    </body>
+</html>

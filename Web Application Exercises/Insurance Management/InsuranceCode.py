@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("Insurence.db")
+connection = sqlite3.connect("Insurance.db")
 
 agent = """
 CREATE TABLE Agent
@@ -69,7 +69,7 @@ with open("agents.csv", "r") as f:
         connection.execute(f"INSERT INTO Agent VALUES {lines}")
         connection.commit()
         lines = f.readline()
-        
+
 ### OR ##########################################
 '''
 with open("agents.csv", "r") as f:
@@ -82,7 +82,7 @@ with open("agents.csv", "r") as f:
         lines = f.readline()[:-1]
 '''
 #################################################
-        
+
 with open("customers.csv", "r") as f:
     lines = f.readline()
     lines = f.readline()

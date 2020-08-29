@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Policies</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+
+    <body>
+        <h1>Insurance Management System</h1>
+        <form action="{{url_for('index')}}" method="POST">
+            <p>Enter as:</p>
+            <button type="submit" name="user" value="customer">Customer</button>
+            <button type="submit" name="user" value="agent">Agent</button>
+        </form>
+    </body>
+</html>

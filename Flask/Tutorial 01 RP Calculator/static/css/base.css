@@ -13,7 +13,7 @@
 }
 
 #link:hover {
-    color: red;
+    color: red !important;
 }
 
 #link:visited {

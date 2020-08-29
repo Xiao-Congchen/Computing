@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Policy Details</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>Policy Details</h1>
+        <table>
+            <tr>
+                <th>Policy ID</th>
+                <th>Yearly Premium</th>
+                <th>Total Years</th>
+                <th>Protected Sum</th>
+                <th>Commission Rate</th>
+            </tr>
+            <tr>
+                {% for info in data %}
+                <td>{{info}}</td>
+                {% endfor %}
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Policies</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>My Policies</h1>
+        <form action="{{url_for('policydetails')}}" method="POST">
+            <table>
+                <tr>
+                    <th>Policy ID</th>
+                    <th>Policy Details</th>
+                </tr>
+                {% for data in data %}
+                <tr>
+                    <td>{{data[0]}}</td>
+                    <td>
+                        <button
+                            type="submit"
+                            name="policyid"
+                            value="{{data[0]}}"
+                        >
+                            Details
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </form>
+    </body>
+</html>

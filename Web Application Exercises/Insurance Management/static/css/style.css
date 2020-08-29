@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(227, 228, 229);
+}
+
+h1 {
+    font-family: "Helvetica";
+    color: rgb(37, 48, 57);
+    background: rgb(207, 209, 211);
+    padding: 30px;
+}
+
+p {
+    font-family: "Helvetica";
+    color: rgb(37, 48, 57);
+}
+
+th,
+td {
+    text-align: left;
+    width: 190px;
+    font-family: "Helvetica";
+    color: rgb(37, 48, 57);
+}
+
+#team,
+#team th,
+#team td {
+    border-collapse: collapse;
+    border: 2px solid rgb(37, 48, 57);
+    width: 700px;
+}

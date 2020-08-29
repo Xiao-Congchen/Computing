@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insurance Management System</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>Insurance Management System</h1>
+        <form action="{{url_for('customer')}}" method="POST">
+            <p>Customer ID:</p>
+            <input type="text" name="customer_id" placeholder="ID" />
+            <input type="submit" value="View my policies!" />
+        </form>
+    </body>
+</html>

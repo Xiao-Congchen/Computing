@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team Performance</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>Team Performance</h1>
+        <table id="team">
+            <tr>
+                <th>Agents</th>
+                <th>Jan</th>
+                <th>Feb</th>
+                <th>Mar</th>
+            </tr>
+            {% for indi_info in data %}
+            <tr>
+                <td>{{indi_info[0]}}</td>
+                <td>{{indi_info[1]}}</td>
+                <td>{{indi_info[2]}}</td>
+                <td>{{indi_info[3]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
