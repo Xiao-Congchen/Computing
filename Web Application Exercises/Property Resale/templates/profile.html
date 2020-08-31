@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Purchase Information</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <h1>Purchase Information</h1>
+        <br />
+        <h2>Buyer Information</h2>
+        <table id="buyer">
+            <tr>
+                <th>User ID</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                {% for info in userinfo %}
+                <td>{{info}}</td>
+                {% endfor %}
+            </tr>
+        </table>
+        <br />
+        <h2>Property Information</h2>
+        <table id="property">
+            <tr>
+                <th>Property ID</th>
+                <th>Address</th>
+                <th>Postal</th>
+                <th>Total Area</th>
+                <th>No. of Bedroom</th>
+                <th>No. of Toilet</th>
+                <th>Asking Price</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                {% for info in propertyinfo %}
+                <td>{{info}}</td>
+                {% endfor %}
+            </tr>
+        </table>
+    </body>
+</html>

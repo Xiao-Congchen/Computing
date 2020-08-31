@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: rgb(36, 109, 255);
+}
+
+body {
+    background-color: rgb(208, 238, 251);
+}
+
+h1 {
+    padding: 10px;
+    background: rgb(208, 238, 251);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: rgb(36, 109, 255);
+    font-family: "Arial";
+}
+
+h2 {
+    font-family: "Arial";
+}
+
+#buyer {
+    width: 700px;
+    text-align: left;
+    border-collapse: collapse;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#property {
+    width: 900px;
+    text-align: left;
+    border-collapse: collapse;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}

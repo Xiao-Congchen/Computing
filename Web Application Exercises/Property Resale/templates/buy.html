@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Property Purchase</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+
+    <body>
+        <h1>Purchase a Property</h1>
+        <form action="{{url_for('buy')}}" , method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <b>Record ID: </b>
+                    </td>
+                    <td>
+                        <input type="number" name="RecordID" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Buyer ID: </b>
+                    </td>
+                    <td>
+                        <input type="text" name="BuyerID" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Sold Price: </b>
+                    </td>
+                    <td>
+                        <input type="number" name="SoldPrice" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Sold Date: </b>
+                    </td>
+                    <td>
+                        <input type="number" name="SoldDate" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <input type="submit" value="Buy!" />
+        </form>
+    </body>
+</html>
