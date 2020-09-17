@@ -15,7 +15,7 @@ def index():
 
 @app.route("/customer/", methods=["GET", "POST"])
 def customer():
-    if request.method == "GET":
+    if request.method == "GET": 
         return render_template("customer.html")
     else:
         customer_id = request.form["customer_id"]
@@ -108,4 +108,4 @@ def agentsalaryhelper(team_no, monthstart, agent, salary):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

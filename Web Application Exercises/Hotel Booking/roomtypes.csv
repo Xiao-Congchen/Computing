@@ -1,0 +1,4 @@
+RoomTypeID,RoomType,Price,Promotion,RoomImage
+1,Deluxe Twin,350,0.95,
+2,Deluxe King,380,0.95,
+3,Suite,500,0.9,

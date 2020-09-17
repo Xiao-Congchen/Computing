@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Booking Confirmation</title>
+		<link rel="stylesheet" href="/static/css/stle.css">
+	</head>
+	<body>
+		<h2>Booking Successful</h2>
+		<p>Please contact bookingsupport@gmail.com with payment information to obtain your check-in key.<br>
+		   Booking will be invalidated if payment is not made within 48 hours.<br>
+		   Thank you!
+		</P>
+		<table border=1px border=border-collapse:collapse>
+			<tr>
+				<td width=150px>Booking Number</td>
+				<td width=100px>Room ID</td>
+				<td width=150px>Customer ID</td>
+				<td width=150px>Check-in Date</td>
+				<td width=150px>Duration of Stay</td>
+				<td width=150px>Payment Status</td>
+			</tr>
+			<tr>
+				{% for info in data %}
+				<td>{{info}}</td>
+				{% endfor %}
+			</tr>
+		</table>
+	</body>
+</html>

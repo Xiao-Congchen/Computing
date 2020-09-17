@@ -1,0 +1,14 @@
+BookingNo,RoomID,CustomerID,StartDate,NoOfDays,PaymentStatus
+1,5,customer001,20190901,3,Paid
+2,2,customer004,20190901,3,Paid
+3,4,customer003,20190901,2,Paid
+4,2,customer001,20190904,2,Unpaid
+5,3,customer007,20190908,3,Paid
+6,16,customer006,20190910,4,Paid
+7,19,customer008,20190914,2,Paid
+8,12,customer002,20190917,3,Paid
+9,20,customer001,20190917,1,Unpaid
+10,11,customer004,20190918,2,Unpaid
+11,18,customer005,20190921,1,Unpaid
+12,17,customer002,20191001,2,Unpaid
+13,1,customer007,20191004,3,Unpaid

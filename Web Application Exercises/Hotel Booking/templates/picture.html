@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Room Picture Upload</title>
+		<link rel="stylesheet" href="/static/css/style.css">
+	</head>
+	<body>
+		<h1>Upload a room picture</h1>
+		<form action="{{url_for('picture')}}" method = "POST" enctype="multipart/form-data">
+			Upload a picture for:
+			<select name="room">
+				{% for room in room_types %}
+				<option value="{{room[0]}}">{{room[0]}}</option>
+				{% endfor %}
+			</select>
+			<input type="file" name = "picture">
+			<br>
+			<input type="submit" value = "Upload!">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+CustomerID,Name,PassportNo,DoB,Country,Address
+customer001,Derren Brett,G12234145,19850302,United States,4256  Pin Oak Drive
+customer002,Marissa Partridge,G73483412,19900202,Germany,259  Philli Lane
+customer003,Lowri Delgado,G92382983,19910202,France,4109  Liberty Avenue
+customer004,Jolyon Robson,G29389281,19940512,France,3054  Deans Lane
+customer005,Areeba Sparrow,G28738123,19881001,Singapore,3909  Gladwell Street
+customer006,Myra Odling,G20938983,19990911,Singapore,3888  Gladwell Street
+customer007,Zhou Xiaohong,G98738473,19871223,China,1751  Little Acres Lane
+customer008,Zhao Xiaoming,G98374832,19891009,China,4794  Hedge Street

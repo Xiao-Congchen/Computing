@@ -1,0 +1,21 @@
+RoomID,Level,Unit,View,RoomTypeID
+1,1,1,Pool View,3
+2,1,2,Pool View,1
+3,1,3,Pool View,2
+4,1,4,Pool View,2
+5,1,5,Garden View,3
+6,1,6,Garden View,2
+7,1,7,Sea View,2
+8,2,1,Pool View,1
+9,2,2,Pool View,2
+10,2,3,Pool View,1
+11,2,4,Garden View,3
+12,2,5,Garden View,3
+13,2,6,Sea View,1
+14,2,7,Sea View,1
+15,3,1,Garden View,3
+16,3,2,Garden View,2
+17,3,3,Sea View,3
+18,3,4,Sea View,1
+19,3,5,Sea View,3
+20,3,6,Sea View,1

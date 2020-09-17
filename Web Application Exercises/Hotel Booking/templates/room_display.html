@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Room Information</title>
+		<link rel="stylesheet" href="/static/css/style.css">
+	</head>
+	<body>
+		<img src="{{data[-1]}}" alt="Room Picture" width=500px>
+		<table width=500px border-collapse border=1px solid black>
+			<tr>
+				<th align=left>Room Type ID</th>
+				<th align=left>Room Type</th>
+				<th align=left>Price</th>
+				<th align=left>Promotion</th>
+			</tr>
+			<tr>
+				<td>{{data[0]}}</td>
+				<td>{{data[1]}}</td>
+				<td>${{data[2]}}</td>
+				<td>{{data[3]}}%</td>
+			</tr>
+		</table>
+	</body>
+</html>

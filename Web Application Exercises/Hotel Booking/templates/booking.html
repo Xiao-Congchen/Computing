@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Book a Room</title>
+		<link rel="stylesheet" href="/static/css/style.css">
+	</head>
+	<body>
+		<h1>Book a Room with us!</h1>
+		<form action="{{url_for('room')}}" method="POST">
+			<table border=1px>
+			<tr>
+				<th align=left></th>
+				<th align=left>Room Type ID</th>
+				<th align=left>Room Type</th>
+				<th align=left>Price</th>
+				<th align=left>Promotion</th>
+				<th align=left>Room Image</th>
+			</tr>
+			{% for type in room_info %}
+			<tr>
+				<td width=35px><input type="radio" name="room" value={{type[0]}}> </td>
+				<td width=600px>{{type[0]}}</td>
+				<td width=600px>{{type[1]}}</td>
+				<td width=600px>${{type[2]}}</td>
+				<td width=600px>{{type[3]*100}}%</td>
+				<td width=600px><img src="{{type[4]}}" alt="Room Picture" width=500px></td>
+			</tr>
+			{% endfor %}
+			</table>
+		<br>
+			<table>
+				<tr>
+					<td>Book this room from: </td>
+					<td><input type="text" name="startdate" placeholder="yyyymmdd"></td>
+				</tr>
+				<tr>
+					<td>Duration of stay: </td>
+					<td>
+						<select name="noofdays">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Customer ID: </td>
+					<td><input type="text" name="customerid"></td>
+				</tr>
+			</table><br>
+			<br>
+			<input type="submit" value="Book the Room!">
+		</form>
+	</body>
+</html>
